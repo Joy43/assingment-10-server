@@ -119,11 +119,11 @@ app.delete('/phone/:id', async(req,res)=>{
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-  res.send('phone making server is running')
+  res.send('Teacnology server is  making running')
 })
 
 app.listen(port, () => {
-  console.log(`phone Server is running on port: ${port}`)
+  console.log(`Teachnology server is running on port: ${port}`)
 })
 
 
